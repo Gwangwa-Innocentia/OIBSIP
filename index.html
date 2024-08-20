@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Nike</title>
+    <style>
+        @import url();
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#efefef ;
+
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    background-color: #8300ff;
+    justify-content: space-between;
+    columns: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0px rgba( 0, 0, 0, .45);
+}
+.content-container {
+
+    flex: 1;
+    padding: 10px;
+}
+.content-top {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 10px;
+
+}
+
+.content-top img {
+    width: 50px;
+    aspect-ratio: 1;
+
+}
+
+.content-top h1 {
+
+    font-size: 26px;
+    margin-right: 10px;
+    color: #55ADD2;
+    
+
+}
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px);
+}
+ .content-bottom h2 {
+     font-size: 32px;
+     margin-bottom: 12px;
+ }
+
+.content-bottom >p {
+
+    color: #c4c4c4ea;
+    margin-left: 10px;
+
+}
+.content-bottom > .action {
+     display: flex;
+     margin-top: auto;
+     align-items: center;
+     justify-content: space-between;
+     margin-inline: 10px;
+     margin-bottom: 10px;
+}
+
+.content-bottom > .action a {
+
+  font-size: 16px;
+  color: #ffffff;
+  font-weight:  bold;
+
+}
+
+.content-bottom> .action button {
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 120px;
+    background-color: #55ADD2;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.content-bottom > .action button:hover {
+ 
+    background-color: #2394c4;
+    border-radius: 8px;
+    transition: all 300ms ease;
+
+}
+
+.content-bottom h2 span {
+    color: #55ADD2;
+}
+.img-container {
+    background-color: #ffffff;
+    width: 40%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.img-container img {
+    
+    filter: grayscale(10);
+    /* transform : rotate(0); */
+    transition: all ease 300ms;
+    width: 100%;
+}
+
+.img-container :hover img {
+    transform: rotate(-30deg);
+    scale: 1.15;
+    filter: grayscale(0);
+    transition: all ease 300ms;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="content-top">
+ <img src="https://i.pinimg.com/564x/55/f6/8e/55f68e1fbbfb3a97de3447dea15fbe28.jpg" alt="logo">
+<h1>+100k</h1>
+</div>
+<div class="content-bottom">
+<h2>Nike Air Max <span>plus TN</span></h2>
+<p>
+The Nike Air Max Plus TN is a popular sneaker model that combines style and comfort. <br>
+The shoe is known for its unique TN (Tuned Air) unit in the heel, which provides superior  <br> cushioning and impact protection, complemented by a full-length Air Max unit for added comfort. Typically made with a synthetic upper, <br>the Air Max Plus TN often features bold colorways and gradient effects, making it a favorite among sneaker enthusiasts and collectors. 
+</p>
+<div class="actions">
+<a href="#"> see product in officil website</a>
+<button>Order</button>
+</div>
+     </div>
+        </div>
+    <div class="img-container">
+<img src="https://media.gq-magazine.co.uk/photos/652e8d4fa0094ab9798bc793/1:1/w_960,c_limit/Nike-Air-Max-Plus.jpeg" alt=" shoes">
+       </div>
+    </div>
+
+<footer>
+      <p>
+        This project was coded by <a href="#" target="_blank">GWANGWA RAMOKONE INNOCENTIA</a> 
+    
+      </p>
+    </footer>
+</body>
+</html>

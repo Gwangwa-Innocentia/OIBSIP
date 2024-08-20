@@ -1,0 +1,136 @@
+@import url();
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#efefef ;
+
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    background-color: #8300ff;
+    justify-content: space-between;
+    columns: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0px rgba( 0, 0, 0, .45);
+}
+.content-container {
+
+    flex: 1;
+    padding: 10px;
+}
+.content-top {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 10px;
+
+}
+
+.content-top img {
+    width: 50px;
+    aspect-ratio: 1;
+
+}
+
+.content-top h1 {
+
+    font-size: 26px;
+    margin-right: 10px;
+    color: #55ADD2;
+    
+
+}
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px);
+}
+ .content-bottom h2 {
+     font-size: 32px;
+     margin-bottom: 12px;
+ }
+
+.content-bottom >p {
+
+    color: #c4c4c4ea;
+    margin-left: 10px;
+
+}
+.content-bottom > .action {
+     display: flex;
+     margin-top: auto;
+     align-items: center;
+     justify-content: space-between;
+     margin-inline: 10px;
+     margin-bottom: 10px;
+}
+
+.content-bottom > .action a {
+
+  font-size: 16px;
+  color: #ffffff;
+  font-weight:  bold;
+
+}
+
+.content-bottom> .action button {
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 120px;
+    background-color: #55ADD2;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.content-bottom > .action button:hover {
+ 
+    background-color: #2394c4;
+    border-radius: 8px;
+    transition: all 300ms ease;
+
+}
+
+.content-bottom h2 span {
+    color: #55ADD2;
+}
+.img-container {
+    background-color: #ffffff;
+    width: 40%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.img-container img {
+    
+    filter: grayscale(10);
+    /* transform : rotate(0); */
+    transition: all ease 300ms;
+    width: 100%;
+}
+
+.img-container :hover img {
+    transform: rotate(-30deg);
+    scale: 1.15;
+    filter: grayscale(0);
+    transition: all ease 300ms;
+}
+
